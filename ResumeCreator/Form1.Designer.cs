@@ -46,47 +46,51 @@
             this.PictureBox = new System.Windows.Forms.PictureBox();
             this.UploadImagebutton = new System.Windows.Forms.Button();
             this.EBbox = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.Coursetxt = new System.Windows.Forms.TextBox();
+            this.Courselabel = new System.Windows.Forms.Label();
+            this.EducYr2label = new System.Windows.Forms.Label();
+            this.CollegeYrtxt = new System.Windows.Forms.TextBox();
+            this.EducYearlabel = new System.Windows.Forms.Label();
+            this.Collegetxt = new System.Windows.Forms.TextBox();
+            this.Collegelabel = new System.Windows.Forms.Label();
+            this.GradYrtxt = new System.Windows.Forms.TextBox();
+            this.HSYrtxt = new System.Windows.Forms.TextBox();
+            this.Highschooltxt = new System.Windows.Forms.TextBox();
+            this.Highschoollabel = new System.Windows.Forms.Label();
+            this.Gradtxt = new System.Windows.Forms.TextBox();
+            this.Gradlabel = new System.Windows.Forms.Label();
+            this.Skillbox = new System.Windows.Forms.GroupBox();
+            this.Skill3txt = new System.Windows.Forms.TextBox();
+            this.Skill2txt = new System.Windows.Forms.TextBox();
+            this.Skill1txt = new System.Windows.Forms.TextBox();
+            this.Employmentbox = new System.Windows.Forms.GroupBox();
+            this.WorkPosition2txt = new System.Windows.Forms.TextBox();
+            this.WorkPosition2label = new System.Windows.Forms.Label();
+            this.Tolabel2txt = new System.Windows.Forms.TextBox();
+            this.Fromlabel2txt = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.CompanyName2txt = new System.Windows.Forms.TextBox();
+            this.CompanyName2label = new System.Windows.Forms.Label();
+            this.WorkPosition1txt = new System.Windows.Forms.TextBox();
+            this.WorkPosition1label = new System.Windows.Forms.Label();
+            this.Tolabel1txt = new System.Windows.Forms.TextBox();
+            this.Fromlabel1txt = new System.Windows.Forms.TextBox();
+            this.YearsOfEmploymentlabel = new System.Windows.Forms.Label();
+            this.CompanyName1txt = new System.Windows.Forms.TextBox();
+            this.CompanyName1label = new System.Windows.Forms.Label();
+            this.Previewbutton = new System.Windows.Forms.Button();
+            this.Generatebutton = new System.Windows.Forms.Button();
+            this.FromTolabel = new System.Windows.Forms.Label();
             this.PIbox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox)).BeginInit();
             this.EBbox.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.Skillbox.SuspendLayout();
+            this.Employmentbox.SuspendLayout();
             this.SuspendLayout();
             // 
             // PIbox
             // 
+            this.PIbox.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.PIbox.Controls.Add(this.HomeAddbox);
             this.PIbox.Controls.Add(this.HomeAddlabel);
             this.PIbox.Controls.Add(this.EmailAddbox);
@@ -111,9 +115,10 @@
             // 
             // HomeAddbox
             // 
+            this.HomeAddbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HomeAddbox.Location = new System.Drawing.Point(7, 166);
             this.HomeAddbox.Name = "HomeAddbox";
-            this.HomeAddbox.Size = new System.Drawing.Size(227, 26);
+            this.HomeAddbox.Size = new System.Drawing.Size(227, 22);
             this.HomeAddbox.TabIndex = 13;
             // 
             // HomeAddlabel
@@ -128,9 +133,10 @@
             // 
             // EmailAddbox
             // 
+            this.EmailAddbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmailAddbox.Location = new System.Drawing.Point(240, 114);
             this.EmailAddbox.Name = "EmailAddbox";
-            this.EmailAddbox.Size = new System.Drawing.Size(181, 26);
+            this.EmailAddbox.Size = new System.Drawing.Size(181, 22);
             this.EmailAddbox.TabIndex = 11;
             // 
             // MobileNumlabel
@@ -145,9 +151,10 @@
             // 
             // MobileNumbox
             // 
+            this.MobileNumbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MobileNumbox.Location = new System.Drawing.Point(240, 166);
             this.MobileNumbox.Name = "MobileNumbox";
-            this.MobileNumbox.Size = new System.Drawing.Size(181, 26);
+            this.MobileNumbox.Size = new System.Drawing.Size(181, 22);
             this.MobileNumbox.TabIndex = 9;
             // 
             // EmailAddlabel
@@ -162,9 +169,10 @@
             // 
             // DateOfBirthbox
             // 
+            this.DateOfBirthbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DateOfBirthbox.Location = new System.Drawing.Point(7, 114);
             this.DateOfBirthbox.Name = "DateOfBirthbox";
-            this.DateOfBirthbox.Size = new System.Drawing.Size(181, 26);
+            this.DateOfBirthbox.Size = new System.Drawing.Size(181, 22);
             this.DateOfBirthbox.TabIndex = 7;
             // 
             // DateOfBirthlabel
@@ -179,23 +187,26 @@
             // 
             // LNbox
             // 
-            this.LNbox.Location = new System.Drawing.Point(314, 61);
+            this.LNbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LNbox.Location = new System.Drawing.Point(311, 62);
             this.LNbox.Name = "LNbox";
-            this.LNbox.Size = new System.Drawing.Size(146, 26);
+            this.LNbox.Size = new System.Drawing.Size(146, 22);
             this.LNbox.TabIndex = 5;
             // 
             // MiddleNamebox
             // 
-            this.MiddleNamebox.Location = new System.Drawing.Point(163, 61);
+            this.MiddleNamebox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MiddleNamebox.Location = new System.Drawing.Point(159, 62);
             this.MiddleNamebox.Name = "MiddleNamebox";
-            this.MiddleNamebox.Size = new System.Drawing.Size(146, 26);
+            this.MiddleNamebox.Size = new System.Drawing.Size(146, 22);
             this.MiddleNamebox.TabIndex = 4;
             // 
             // FirstNamebox
             // 
+            this.FirstNamebox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FirstNamebox.Location = new System.Drawing.Point(7, 62);
             this.FirstNamebox.Name = "FirstNamebox";
-            this.FirstNamebox.Size = new System.Drawing.Size(146, 26);
+            this.FirstNamebox.Size = new System.Drawing.Size(146, 22);
             this.FirstNamebox.TabIndex = 3;
             // 
             // LastNamelabel
@@ -249,19 +260,20 @@
             // 
             // EBbox
             // 
-            this.EBbox.Controls.Add(this.textBox6);
-            this.EBbox.Controls.Add(this.label5);
-            this.EBbox.Controls.Add(this.label3);
-            this.EBbox.Controls.Add(this.textBox5);
-            this.EBbox.Controls.Add(this.label2);
-            this.EBbox.Controls.Add(this.textBox1);
-            this.EBbox.Controls.Add(this.label1);
-            this.EBbox.Controls.Add(this.textBox2);
-            this.EBbox.Controls.Add(this.textBox3);
-            this.EBbox.Controls.Add(this.textBox4);
-            this.EBbox.Controls.Add(this.label4);
-            this.EBbox.Controls.Add(this.textBox7);
-            this.EBbox.Controls.Add(this.label7);
+            this.EBbox.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.EBbox.Controls.Add(this.Coursetxt);
+            this.EBbox.Controls.Add(this.Courselabel);
+            this.EBbox.Controls.Add(this.EducYr2label);
+            this.EBbox.Controls.Add(this.CollegeYrtxt);
+            this.EBbox.Controls.Add(this.EducYearlabel);
+            this.EBbox.Controls.Add(this.Collegetxt);
+            this.EBbox.Controls.Add(this.Collegelabel);
+            this.EBbox.Controls.Add(this.GradYrtxt);
+            this.EBbox.Controls.Add(this.HSYrtxt);
+            this.EBbox.Controls.Add(this.Highschooltxt);
+            this.EBbox.Controls.Add(this.Highschoollabel);
+            this.EBbox.Controls.Add(this.Gradtxt);
+            this.EBbox.Controls.Add(this.Gradlabel);
             this.EBbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EBbox.Location = new System.Drawing.Point(12, 269);
             this.EBbox.Name = "EBbox";
@@ -270,261 +282,219 @@
             this.EBbox.TabStop = false;
             this.EBbox.Text = "Educational Background";
             // 
-            // textBox1
+            // Coursetxt
             // 
-            this.textBox1.Location = new System.Drawing.Point(353, 61);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(227, 26);
-            this.textBox1.TabIndex = 13;
+            this.Coursetxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Coursetxt.Location = new System.Drawing.Point(353, 116);
+            this.Coursetxt.Name = "Coursetxt";
+            this.Coursetxt.Size = new System.Drawing.Size(316, 20);
+            this.Coursetxt.TabIndex = 18;
             // 
-            // label1
+            // Courselabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(422, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 20);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "College:";
+            this.Courselabel.AutoSize = true;
+            this.Courselabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Courselabel.Location = new System.Drawing.Point(441, 90);
+            this.Courselabel.Name = "Courselabel";
+            this.Courselabel.Size = new System.Drawing.Size(128, 20);
+            this.Courselabel.TabIndex = 17;
+            this.Courselabel.Text = "Course/Program:";
             // 
-            // textBox2
+            // EducYr2label
             // 
-            this.textBox2.Location = new System.Drawing.Point(251, 62);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(58, 26);
-            this.textBox2.TabIndex = 11;
+            this.EducYr2label.AutoSize = true;
+            this.EducYr2label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EducYr2label.Location = new System.Drawing.Point(585, 38);
+            this.EducYr2label.Name = "EducYr2label";
+            this.EducYr2label.Size = new System.Drawing.Size(102, 15);
+            this.EducYr2label.TabIndex = 16;
+            this.EducYr2label.Text = "Year of Graduate:";
             // 
-            // textBox3
+            // CollegeYrtxt
             // 
-            this.textBox3.Location = new System.Drawing.Point(251, 114);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(58, 26);
-            this.textBox3.TabIndex = 9;
+            this.CollegeYrtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CollegeYrtxt.Location = new System.Drawing.Point(599, 62);
+            this.CollegeYrtxt.Name = "CollegeYrtxt";
+            this.CollegeYrtxt.Size = new System.Drawing.Size(70, 20);
+            this.CollegeYrtxt.TabIndex = 15;
             // 
-            // textBox4
+            // EducYearlabel
             // 
-            this.textBox4.Location = new System.Drawing.Point(7, 114);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(227, 26);
-            this.textBox4.TabIndex = 7;
+            this.EducYearlabel.AutoSize = true;
+            this.EducYearlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EducYearlabel.Location = new System.Drawing.Point(246, 38);
+            this.EducYearlabel.Name = "EducYearlabel";
+            this.EducYearlabel.Size = new System.Drawing.Size(102, 15);
+            this.EducYearlabel.TabIndex = 14;
+            this.EducYearlabel.Text = "Year of Graduate:";
             // 
-            // label4
+            // Collegetxt
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(58, 91);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 20);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "High School:";
+            this.Collegetxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Collegetxt.Location = new System.Drawing.Point(353, 61);
+            this.Collegetxt.Name = "Collegetxt";
+            this.Collegetxt.Size = new System.Drawing.Size(227, 20);
+            this.Collegetxt.TabIndex = 13;
             // 
-            // textBox7
+            // Collegelabel
             // 
-            this.textBox7.Location = new System.Drawing.Point(7, 62);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(227, 26);
-            this.textBox7.TabIndex = 3;
+            this.Collegelabel.AutoSize = true;
+            this.Collegelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Collegelabel.Location = new System.Drawing.Point(422, 33);
+            this.Collegelabel.Name = "Collegelabel";
+            this.Collegelabel.Size = new System.Drawing.Size(66, 20);
+            this.Collegelabel.TabIndex = 12;
+            this.Collegelabel.Text = "College:";
             // 
-            // label7
+            // GradYrtxt
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(58, 38);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(111, 20);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Grade School:";
+            this.GradYrtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GradYrtxt.Location = new System.Drawing.Point(265, 62);
+            this.GradYrtxt.Name = "GradYrtxt";
+            this.GradYrtxt.Size = new System.Drawing.Size(58, 20);
+            this.GradYrtxt.TabIndex = 11;
             // 
-            // label2
+            // HSYrtxt
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(228, 38);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 15);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Year of Graduate:";
+            this.HSYrtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HSYrtxt.Location = new System.Drawing.Point(267, 116);
+            this.HSYrtxt.Name = "HSYrtxt";
+            this.HSYrtxt.Size = new System.Drawing.Size(58, 20);
+            this.HSYrtxt.TabIndex = 9;
             // 
-            // label3
+            // Highschooltxt
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(585, 38);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 15);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Year of Graduate:";
+            this.Highschooltxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Highschooltxt.Location = new System.Drawing.Point(7, 114);
+            this.Highschooltxt.Name = "Highschooltxt";
+            this.Highschooltxt.Size = new System.Drawing.Size(227, 20);
+            this.Highschooltxt.TabIndex = 7;
             // 
-            // textBox5
+            // Highschoollabel
             // 
-            this.textBox5.Location = new System.Drawing.Point(599, 62);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(70, 26);
-            this.textBox5.TabIndex = 15;
+            this.Highschoollabel.AutoSize = true;
+            this.Highschoollabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Highschoollabel.Location = new System.Drawing.Point(58, 91);
+            this.Highschoollabel.Name = "Highschoollabel";
+            this.Highschoollabel.Size = new System.Drawing.Size(99, 20);
+            this.Highschoollabel.TabIndex = 6;
+            this.Highschoollabel.Text = "High School:";
             // 
-            // textBox6
+            // Gradtxt
             // 
-            this.textBox6.Location = new System.Drawing.Point(397, 116);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(227, 26);
-            this.textBox6.TabIndex = 18;
+            this.Gradtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gradtxt.Location = new System.Drawing.Point(7, 62);
+            this.Gradtxt.Name = "Gradtxt";
+            this.Gradtxt.Size = new System.Drawing.Size(227, 20);
+            this.Gradtxt.TabIndex = 3;
             // 
-            // label5
+            // Gradlabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(441, 90);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(128, 20);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Course/Program:";
+            this.Gradlabel.AutoSize = true;
+            this.Gradlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gradlabel.Location = new System.Drawing.Point(58, 38);
+            this.Gradlabel.Name = "Gradlabel";
+            this.Gradlabel.Size = new System.Drawing.Size(111, 20);
+            this.Gradlabel.TabIndex = 0;
+            this.Gradlabel.Text = "Grade School:";
             // 
-            // groupBox2
+            // Skillbox
             // 
-            this.groupBox2.Controls.Add(this.textBox11);
-            this.groupBox2.Controls.Add(this.textBox13);
-            this.groupBox2.Controls.Add(this.textBox14);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(12, 449);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(261, 145);
-            this.groupBox2.TabIndex = 19;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Skills/Expertise";
+            this.Skillbox.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Skillbox.Controls.Add(this.Skill3txt);
+            this.Skillbox.Controls.Add(this.Skill2txt);
+            this.Skillbox.Controls.Add(this.Skill1txt);
+            this.Skillbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Skillbox.Location = new System.Drawing.Point(12, 449);
+            this.Skillbox.Name = "Skillbox";
+            this.Skillbox.Size = new System.Drawing.Size(261, 145);
+            this.Skillbox.TabIndex = 19;
+            this.Skillbox.TabStop = false;
+            this.Skillbox.Text = "Skills/Expertise";
             // 
-            // textBox11
+            // Skill3txt
             // 
-            this.textBox11.Location = new System.Drawing.Point(7, 94);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(227, 26);
-            this.textBox11.TabIndex = 11;
+            this.Skill3txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Skill3txt.Location = new System.Drawing.Point(16, 97);
+            this.Skill3txt.Name = "Skill3txt";
+            this.Skill3txt.Size = new System.Drawing.Size(227, 26);
+            this.Skill3txt.TabIndex = 11;
             // 
-            // textBox13
+            // Skill2txt
             // 
-            this.textBox13.Location = new System.Drawing.Point(7, 62);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(227, 26);
-            this.textBox13.TabIndex = 7;
+            this.Skill2txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Skill2txt.Location = new System.Drawing.Point(16, 65);
+            this.Skill2txt.Name = "Skill2txt";
+            this.Skill2txt.Size = new System.Drawing.Size(227, 26);
+            this.Skill2txt.TabIndex = 7;
             // 
-            // textBox14
+            // Skill1txt
             // 
-            this.textBox14.Location = new System.Drawing.Point(7, 25);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(227, 26);
-            this.textBox14.TabIndex = 3;
+            this.Skill1txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Skill1txt.Location = new System.Drawing.Point(16, 33);
+            this.Skill1txt.Name = "Skill1txt";
+            this.Skill1txt.Size = new System.Drawing.Size(227, 26);
+            this.Skill1txt.TabIndex = 3;
             // 
-            // groupBox3
+            // Employmentbox
             // 
-            this.groupBox3.Controls.Add(this.textBox15);
-            this.groupBox3.Controls.Add(this.label10);
-            this.groupBox3.Controls.Add(this.textBox16);
-            this.groupBox3.Controls.Add(this.textBox17);
-            this.groupBox3.Controls.Add(this.label11);
-            this.groupBox3.Controls.Add(this.textBox18);
-            this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.textBox12);
-            this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Controls.Add(this.textBox10);
-            this.groupBox3.Controls.Add(this.textBox9);
-            this.groupBox3.Controls.Add(this.label8);
-            this.groupBox3.Controls.Add(this.textBox8);
-            this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(290, 449);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(469, 145);
-            this.groupBox3.TabIndex = 20;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Employment History";
+            this.Employmentbox.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Employmentbox.Controls.Add(this.FromTolabel);
+            this.Employmentbox.Controls.Add(this.WorkPosition2txt);
+            this.Employmentbox.Controls.Add(this.WorkPosition2label);
+            this.Employmentbox.Controls.Add(this.Tolabel2txt);
+            this.Employmentbox.Controls.Add(this.Fromlabel2txt);
+            this.Employmentbox.Controls.Add(this.label11);
+            this.Employmentbox.Controls.Add(this.CompanyName2txt);
+            this.Employmentbox.Controls.Add(this.CompanyName2label);
+            this.Employmentbox.Controls.Add(this.WorkPosition1txt);
+            this.Employmentbox.Controls.Add(this.WorkPosition1label);
+            this.Employmentbox.Controls.Add(this.Tolabel1txt);
+            this.Employmentbox.Controls.Add(this.Fromlabel1txt);
+            this.Employmentbox.Controls.Add(this.YearsOfEmploymentlabel);
+            this.Employmentbox.Controls.Add(this.CompanyName1txt);
+            this.Employmentbox.Controls.Add(this.CompanyName1label);
+            this.Employmentbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Employmentbox.Location = new System.Drawing.Point(279, 449);
+            this.Employmentbox.Name = "Employmentbox";
+            this.Employmentbox.Size = new System.Drawing.Size(480, 145);
+            this.Employmentbox.TabIndex = 20;
+            this.Employmentbox.TabStop = false;
+            this.Employmentbox.Text = "Employment History";
             // 
-            // textBox8
+            // WorkPosition2txt
             // 
-            this.textBox8.Location = new System.Drawing.Point(12, 51);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(198, 26);
-            this.textBox8.TabIndex = 20;
+            this.WorkPosition2txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WorkPosition2txt.Location = new System.Drawing.Point(321, 103);
+            this.WorkPosition2txt.Name = "WorkPosition2txt";
+            this.WorkPosition2txt.Size = new System.Drawing.Size(153, 26);
+            this.WorkPosition2txt.TabIndex = 32;
             // 
-            // label6
+            // WorkPosition2label
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(41, 28);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(126, 20);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "Company Name:";
+            this.WorkPosition2label.AutoSize = true;
+            this.WorkPosition2label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WorkPosition2label.Location = new System.Drawing.Point(325, 80);
+            this.WorkPosition2label.Name = "WorkPosition2label";
+            this.WorkPosition2label.Size = new System.Drawing.Size(110, 20);
+            this.WorkPosition2label.TabIndex = 31;
+            this.WorkPosition2label.Text = "Work Position:";
             // 
-            // textBox9
+            // Tolabel2txt
             // 
-            this.textBox9.Location = new System.Drawing.Point(216, 51);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(46, 26);
-            this.textBox9.TabIndex = 22;
+            this.Tolabel2txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tolabel2txt.Location = new System.Drawing.Point(268, 103);
+            this.Tolabel2txt.Name = "Tolabel2txt";
+            this.Tolabel2txt.Size = new System.Drawing.Size(46, 26);
+            this.Tolabel2txt.TabIndex = 30;
             // 
-            // label8
+            // Fromlabel2txt
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(213, 33);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(106, 13);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "Years of Employment";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(268, 51);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(46, 26);
-            this.textBox10.TabIndex = 23;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(321, 51);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(142, 26);
-            this.textBox12.TabIndex = 25;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(325, 28);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(110, 20);
-            this.label9.TabIndex = 24;
-            this.label9.Text = "Work Position:";
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(321, 103);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(142, 26);
-            this.textBox15.TabIndex = 32;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(325, 80);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(110, 20);
-            this.label10.TabIndex = 31;
-            this.label10.Text = "Work Position:";
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(268, 103);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(46, 26);
-            this.textBox16.TabIndex = 30;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(216, 103);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(46, 26);
-            this.textBox17.TabIndex = 29;
+            this.Fromlabel2txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fromlabel2txt.Location = new System.Drawing.Point(216, 103);
+            this.Fromlabel2txt.Name = "Fromlabel2txt";
+            this.Fromlabel2txt.Size = new System.Drawing.Size(46, 26);
+            this.Fromlabel2txt.TabIndex = 29;
             // 
             // label11
             // 
@@ -536,38 +506,133 @@
             this.label11.TabIndex = 28;
             this.label11.Text = "Years of Employment";
             // 
-            // textBox18
+            // CompanyName2txt
             // 
-            this.textBox18.Location = new System.Drawing.Point(12, 103);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(198, 26);
-            this.textBox18.TabIndex = 27;
+            this.CompanyName2txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CompanyName2txt.Location = new System.Drawing.Point(12, 103);
+            this.CompanyName2txt.Name = "CompanyName2txt";
+            this.CompanyName2txt.Size = new System.Drawing.Size(198, 26);
+            this.CompanyName2txt.TabIndex = 27;
             // 
-            // label12
+            // CompanyName2label
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(41, 80);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(126, 20);
-            this.label12.TabIndex = 26;
-            this.label12.Text = "Company Name:";
+            this.CompanyName2label.AutoSize = true;
+            this.CompanyName2label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CompanyName2label.Location = new System.Drawing.Point(41, 80);
+            this.CompanyName2label.Name = "CompanyName2label";
+            this.CompanyName2label.Size = new System.Drawing.Size(126, 20);
+            this.CompanyName2label.TabIndex = 26;
+            this.CompanyName2label.Text = "Company Name:";
+            // 
+            // WorkPosition1txt
+            // 
+            this.WorkPosition1txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WorkPosition1txt.Location = new System.Drawing.Point(321, 51);
+            this.WorkPosition1txt.Name = "WorkPosition1txt";
+            this.WorkPosition1txt.Size = new System.Drawing.Size(153, 26);
+            this.WorkPosition1txt.TabIndex = 25;
+            // 
+            // WorkPosition1label
+            // 
+            this.WorkPosition1label.AutoSize = true;
+            this.WorkPosition1label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WorkPosition1label.Location = new System.Drawing.Point(325, 28);
+            this.WorkPosition1label.Name = "WorkPosition1label";
+            this.WorkPosition1label.Size = new System.Drawing.Size(110, 20);
+            this.WorkPosition1label.TabIndex = 24;
+            this.WorkPosition1label.Text = "Work Position:";
+            // 
+            // Tolabel1txt
+            // 
+            this.Tolabel1txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tolabel1txt.Location = new System.Drawing.Point(268, 51);
+            this.Tolabel1txt.Name = "Tolabel1txt";
+            this.Tolabel1txt.Size = new System.Drawing.Size(46, 26);
+            this.Tolabel1txt.TabIndex = 23;
+            // 
+            // Fromlabel1txt
+            // 
+            this.Fromlabel1txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fromlabel1txt.Location = new System.Drawing.Point(216, 51);
+            this.Fromlabel1txt.Name = "Fromlabel1txt";
+            this.Fromlabel1txt.Size = new System.Drawing.Size(46, 26);
+            this.Fromlabel1txt.TabIndex = 22;
+            // 
+            // YearsOfEmploymentlabel
+            // 
+            this.YearsOfEmploymentlabel.AutoSize = true;
+            this.YearsOfEmploymentlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YearsOfEmploymentlabel.Location = new System.Drawing.Point(213, 13);
+            this.YearsOfEmploymentlabel.Name = "YearsOfEmploymentlabel";
+            this.YearsOfEmploymentlabel.Size = new System.Drawing.Size(106, 13);
+            this.YearsOfEmploymentlabel.TabIndex = 21;
+            this.YearsOfEmploymentlabel.Text = "Years of Employment";
+            // 
+            // CompanyName1txt
+            // 
+            this.CompanyName1txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CompanyName1txt.Location = new System.Drawing.Point(12, 51);
+            this.CompanyName1txt.Name = "CompanyName1txt";
+            this.CompanyName1txt.Size = new System.Drawing.Size(198, 26);
+            this.CompanyName1txt.TabIndex = 20;
+            // 
+            // CompanyName1label
+            // 
+            this.CompanyName1label.AutoSize = true;
+            this.CompanyName1label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CompanyName1label.Location = new System.Drawing.Point(41, 28);
+            this.CompanyName1label.Name = "CompanyName1label";
+            this.CompanyName1label.Size = new System.Drawing.Size(126, 20);
+            this.CompanyName1label.TabIndex = 19;
+            this.CompanyName1label.Text = "Company Name:";
+            // 
+            // Previewbutton
+            // 
+            this.Previewbutton.Location = new System.Drawing.Point(252, 609);
+            this.Previewbutton.Name = "Previewbutton";
+            this.Previewbutton.Size = new System.Drawing.Size(124, 23);
+            this.Previewbutton.TabIndex = 21;
+            this.Previewbutton.Text = "Preview Json";
+            this.Previewbutton.UseVisualStyleBackColor = true;
+            // 
+            // Generatebutton
+            // 
+            this.Generatebutton.Location = new System.Drawing.Point(403, 609);
+            this.Generatebutton.Name = "Generatebutton";
+            this.Generatebutton.Size = new System.Drawing.Size(124, 23);
+            this.Generatebutton.TabIndex = 22;
+            this.Generatebutton.Text = "Generate PDF";
+            this.Generatebutton.UseVisualStyleBackColor = true;
+            // 
+            // FromTolabel
+            // 
+            this.FromTolabel.AutoSize = true;
+            this.FromTolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FromTolabel.Location = new System.Drawing.Point(239, 33);
+            this.FromTolabel.Name = "FromTolabel";
+            this.FromTolabel.Size = new System.Drawing.Size(52, 13);
+            this.FromTolabel.TabIndex = 33;
+            this.FromTolabel.Text = "From - To";
             // 
             // BaseForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(783, 612);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
+            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.ClientSize = new System.Drawing.Size(783, 644);
+            this.Controls.Add(this.Generatebutton);
+            this.Controls.Add(this.Previewbutton);
+            this.Controls.Add(this.Employmentbox);
+            this.Controls.Add(this.Skillbox);
             this.Controls.Add(this.EBbox);
             this.Controls.Add(this.UploadImagebutton);
             this.Controls.Add(this.PictureBox);
             this.Controls.Add(this.PIbox);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(799, 651);
             this.MinimumSize = new System.Drawing.Size(799, 651);
             this.Name = "BaseForm";
+            this.RightToLeftLayout = true;
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Resume Creator Application";
@@ -576,10 +641,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox)).EndInit();
             this.EBbox.ResumeLayout(false);
             this.EBbox.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.Skillbox.ResumeLayout(false);
+            this.Skillbox.PerformLayout();
+            this.Employmentbox.ResumeLayout(false);
+            this.Employmentbox.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -604,38 +669,41 @@
         private System.Windows.Forms.PictureBox PictureBox;
         private System.Windows.Forms.Button UploadImagebutton;
         private System.Windows.Forms.GroupBox EBbox;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox Coursetxt;
+        private System.Windows.Forms.Label Courselabel;
+        private System.Windows.Forms.Label EducYr2label;
+        private System.Windows.Forms.TextBox CollegeYrtxt;
+        private System.Windows.Forms.Label EducYearlabel;
+        private System.Windows.Forms.TextBox Collegetxt;
+        private System.Windows.Forms.Label Collegelabel;
+        private System.Windows.Forms.TextBox GradYrtxt;
+        private System.Windows.Forms.TextBox HSYrtxt;
+        private System.Windows.Forms.TextBox Highschooltxt;
+        private System.Windows.Forms.Label Highschoollabel;
+        private System.Windows.Forms.TextBox Gradtxt;
+        private System.Windows.Forms.Label Gradlabel;
+        private System.Windows.Forms.GroupBox Skillbox;
+        private System.Windows.Forms.TextBox Skill3txt;
+        private System.Windows.Forms.TextBox Skill2txt;
+        private System.Windows.Forms.TextBox Skill1txt;
+        private System.Windows.Forms.GroupBox Employmentbox;
+        private System.Windows.Forms.TextBox Fromlabel1txt;
+        private System.Windows.Forms.Label YearsOfEmploymentlabel;
+        private System.Windows.Forms.TextBox CompanyName1txt;
+        private System.Windows.Forms.Label CompanyName1label;
+        private System.Windows.Forms.TextBox WorkPosition1txt;
+        private System.Windows.Forms.Label WorkPosition1label;
+        private System.Windows.Forms.TextBox Tolabel1txt;
+        private System.Windows.Forms.TextBox WorkPosition2txt;
+        private System.Windows.Forms.Label WorkPosition2label;
+        private System.Windows.Forms.TextBox Tolabel2txt;
+        private System.Windows.Forms.TextBox Fromlabel2txt;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox CompanyName2txt;
+        private System.Windows.Forms.Label CompanyName2label;
+        private System.Windows.Forms.Button Previewbutton;
+        private System.Windows.Forms.Button Generatebutton;
+        private System.Windows.Forms.Label FromTolabel;
     }
 }
 
